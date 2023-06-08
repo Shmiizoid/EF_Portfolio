@@ -1,0 +1,183 @@
+body {
+    background-color: darkslategray;
+    color: antiquewhite;
+}
+
+#landing {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: antiquewhite;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 25%;
+
+  }
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    color: antiquewhite;
+    font-weight: bold;
+    text-decoration: none;
+    } 
+
+h1 {
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 60px;
+        margin-right: 20px;
+    }
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    }
+
+a:hover {
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    }    
+
+.front {
+    text-align: center;
+    font-size: 36px;
+  }
+
+header:hover,
+#landing:hover  {
+    color: black;
+    text-decoration: none;
+    font-size: 42px;
+    cursor: crosshair;
+    }
+  
+#landing a {
+    text-decoration: none;
+    color: antiquewhite;
+  }
+.image-row {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: antiquewhite;
+    padding-top: 4px;
+  }
+  
+.image-row img {
+    height: 6vh;
+  }
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+  }
+
+#links {
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    padding: 10px;
+  }
+
+  #links li {
+    margin-left: 15px;
+  }
+
+  #contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+
+input {
+    height: 2vh;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 20vh;
+    width: 400px;
+}
+
+form {
+    padding-top: 10%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    height: 80%;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#resume-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#close-modal {
+    position: absolute;
+    z-index: 10;
+    top: 15px;
+    right: 50px;
+    background-color: transparent;
+    color: grey;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+/* Needs mobile responsive design */
+@media (max-width: 768px) {
+  .head {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-container {
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+
+  #links {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  #links li {
+    margin: 10px 0;
+  }
+}
