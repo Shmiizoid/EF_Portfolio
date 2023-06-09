@@ -1,5 +1,5 @@
 # EF_Portfolio
 
-![Landing page screengrab](/portfolioscreenshot.jpeg)
+![Landing page screengrab](/portfolioscreenshot.png)
 
 #Technologies
