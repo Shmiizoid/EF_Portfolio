@@ -197,9 +197,88 @@ form {
     color: black;
     margin: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-weight: bold;
     font-size: 20px;
 }
 
+.box a {
+    color:black;
+}
+
+.box a:hover {
+    color: darkolivegreen;
+}
+
+/* carousel________________ */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 50vh;
+  }
+  
+  .container > img {
+    width: 50%;
+    max-height: 50vh;
+  }
+  
+
+  .carousel-container {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    overflow:hidden;
+  }
+  
+  .carousel-images {
+    width: 80%;
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  .carousel-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    display: none;
+  }
+  
+  .carousel-images img:first-of-type {
+    display: block;
+  }
+  
+  .carousel-button {
+    align-self: center;
+    background: antiquewhite;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  .carousel-button:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+  }
+
+  /* about me profile */
+  .about-me {
+    position: absolute; 
+    bottom: 40; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 10px; 
+    color: white; 
+    font-size: 16px; 
+    text-align: center; 
+    width: 100%; 
+    max-width: 400px; 
+  }

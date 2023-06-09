@@ -10,8 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //Modal_________________________________________
-console.log('working');
-
 document.addEventListener("DOMContentLoaded", function() {
   var modal = document.getElementById("resume-modal");
   var trigger = document.getElementById("resume-link");
@@ -32,38 +30,40 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 //Carousel_________________________________________
-const next = document.querySelector('.next');
-const prev = document.querySelector('.prev');
-const images = document.getElementsByClassName('carousel-images');
-let currentImgIndex = 0;
+document.addEventListener('DOMContentLoaded', function() {
 
-
-next.addEventListener('click', () => {
-    let previousImgIndex = currentImgIndex;
-    currentImgIndex++;
-
-    if(currentImgIndex >= images.length) {
+    const next = document.querySelector('.next');
+    const prev = document.querySelector('.prev');
+    const images = document.getElementsByClassName('images');
+    let currentImgIndex = 0;
+  
+    next.addEventListener('click', () => {
+      let previousImgIndex = currentImgIndex;
+      currentImgIndex++;
+  
+      if (currentImgIndex >= images.length) {
         currentImgIndex = 0;
-    }
-
-    images[previousImgIndex].style.display = 'none';
-    images[currentImgIndex].style.display = 'block';
-})
-
-prev.addEventListener('click', () => {
-   let previousImgIndex = currentImgIndex
-    currentImgIndex--;
-
-    if(currentImgIndex < 0) {
-        currentImgIndex = images.length -1;
-    }
-
-    images[previousImgIndex].style.display = 'none';
-    images[currentImgIndex].style.display = 'block';
-});
-
+      }
+  
+      images[previousImgIndex].style.display = 'none';
+      images[currentImgIndex].style.display = 'block';
+    });
+  
+    prev.addEventListener('click', () => {
+      let previousImgIndex = currentImgIndex;
+      currentImgIndex--;
+  
+      if (currentImgIndex < 0) {
+        currentImgIndex = images.length - 1;
+      }
+  
+      images[previousImgIndex].style.display = 'none';
+      images[currentImgIndex].style.display = 'block';
+    });
+  
+  });
 //One more just for fun
 function sendMessage(event) {
     event.preventDefault();
-    alert('Message sent!')
+    alert('Message sent!');
 }
