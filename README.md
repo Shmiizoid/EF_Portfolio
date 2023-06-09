@@ -20,3 +20,18 @@ As a GA Instructor ,I want to see what lessons are sticking with Emilio and whic
 
 As a friend of and more experienced programmer than Emilio , I want to see what Emilio has built so that I can provide constructive feedback.
 
+# Wireframes
+
+![Landing page screengrab](/wireframep1.png)
+My wireframes were very simplified, as intended. I ended up changing the nav bar because of I believed it provided a better UI. I would like to revisit the initial ideas once my skills improve.
+
+
+# Unsolved Problems and Hurdles
+
+I would have liked more styling on my page, but as is I have little experience and so fewer hands-on examples to pull from. My resume was supposed to be a pdf but I was unable to successfuly implement the pdf and so it remains an image in a modal.
+
+I would say the carousel of images on my about page represented the greatest hurdle. It took quite a bit of problem solving to get it to the state it is currently.
+
+I also would like for the ocntact page to have more functionality. Perhaps an auto response form my email.
+
+Overall I am happy to have reached MVP, however in time I would like both the styling and functionality to improve and respresent the skills I develop over time.
