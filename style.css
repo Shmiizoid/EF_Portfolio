@@ -269,6 +269,15 @@ form {
     color: white;
   }
 
+  @media (max-width: 768px) {
+    .carousel-container {
+      flex-direction: row;
+      width: 100%;
+      max-width: 400px;
+      max-height: 300px;
+    }
+  
+  }
   /* about me profile */
   .about-me {
     position: absolute; 
