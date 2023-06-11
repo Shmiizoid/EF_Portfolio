@@ -8,7 +8,7 @@ The technologies I used to create this portfolio were HTML, CSS, and JavaScript.
 
 # Installation Instructions
 
-The portfolio can be accessed from (https://github.com/Shmiizoid/EF_Portfolio)
+The portfolio can be accessed from (https://shmiizoid.github.io/EF_Portfolio/home.html))
 
 If you'd like to access my files and code on your local machine, please clone this repository and open the files in the editor of your choice. You can run the files on your local machine by opening `index.html` using whatever modern browser you like.
 
