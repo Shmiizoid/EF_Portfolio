@@ -2,6 +2,8 @@
 
 ![Landing page screengrab](/portfolioscreenshot.png)
 
+Portfolio can be accessed at https://shmiizoid.github.io/EF_Portfolio/index.html .
+
 # Technologies
 
 The technologies I used to create this portfolio were HTML, CSS, and JavaScript.
