@@ -1,14 +1,14 @@
 
 // Modal_________________________________________
 document.addEventListener("DOMContentLoaded", function() {
-    var modal = document.getElementById("resume-modal");
-    var trigger = document.getElementById("resume-link");
-    var closeButton = document.getElementById("close-modal");
+    const modal = document.getElementById("resume-modal");
+    const trigger = document.getElementById("resume-link");
+    const closeButton = document.getElementById("close-modal");
     var resumeImage = document.getElementById("resume-img");
   
     trigger.addEventListener("click", function(event) {
       event.preventDefault();
-      var imageLink = "efr copy.png";
+      const imageLink = "efr copy.png";
       resumeImage.src = imageLink;
       modal.style.display = "block";
     });
@@ -17,8 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
       modal.style.display = "none";
     });
   });
-  
-
+ 
   //One more just for fun
 function sendMessage(event) {
   event.preventDefault();
