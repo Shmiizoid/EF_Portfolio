@@ -6,25 +6,18 @@
 
 The technologies I used to create this portfolio were HTML, CSS, and JavaScript.
 
-# Installation Instructions
-
-The portfolio can be accessed from (https://shmiizoid.github.io/EF_Portfolio/home.html)
-
-If you'd like to access my files and code on your local machine, please clone this repository and open the files in the editor of your choice. You can run the files on your local machine by opening `index.html` using whatever modern browser you like.
-
 # User Stories
 
 As a fellow member of the cohort, I want to see what Emilio's page will look like so I can provide feedback and ask questions regarding the code.
 
-As a GA Instructor ,I want to see what lessons are sticking with Emilio and which lessons Emilio may need more time with.
+As a GA Instructor, I want to see what lessons are sticking with Emilio and which lessons Emilio may need more time with.
 
-As a friend of and more experienced programmer than Emilio , I want to see what Emilio has built so that I can provide constructive feedback.
+As a friend of and more experienced programmer than Emilio, I want to see what Emilio has built so that I can provide constructive feedback.
 
 # Wireframes
 
 ![Landing page screengrab](/wireframep1.png)
 My wireframes were very simplified, as intended. I ended up changing the nav bar because of I believed it provided a better UI. I would like to revisit the initial ideas once my skills improve.
-
 
 # Unsolved Problems and Hurdles
 
@@ -35,3 +28,5 @@ I would say the carousel of images on my about page represented the greatest hur
 I also would like for the ocntact page to have more functionality. Perhaps an auto response form my email.
 
 Overall I am happy to have reached MVP, however in time I would like both the styling and functionality to improve and respresent the skills I develop over time.
+
+<!-- explain in detail the problems and hurdles. -->

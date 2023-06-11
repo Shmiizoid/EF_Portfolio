@@ -1,4 +1,4 @@
-console.log('working')
+
 //Click arrow function Landing page_________________________________________
 const pageLink = document.getElementById("landing");
 console.log(pageLink)

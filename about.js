@@ -1,10 +1,10 @@
 
 // Modal_________________________________________
 document.addEventListener("DOMContentLoaded", function() {
-  var modal = document.getElementById("resume-modal");
-  var trigger = document.getElementById("resume-link");
-  var closeButton = document.getElementById("close-modal");
-  var resumeImage = document.getElementById("resume-img");
+  const modal = document.getElementById("resume-modal");
+  const trigger = document.getElementById("resume-link");
+  const closeButton = document.getElementById("close-modal");
+  const resumeImage = document.getElementById("resume-img");
 
   trigger.addEventListener("click", function(event) {
     event.preventDefault();
