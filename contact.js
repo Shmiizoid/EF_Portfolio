@@ -51,3 +51,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   
   });
+  //One more just for fun
+function sendMessage(event) {
+  event.preventDefault();
+  alert('Message sent!');
+}
