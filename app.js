@@ -1,15 +1,5 @@
-console.log('working')
-//Click arrow function Landing page_________________________________________
-document.addEventListener('DOMContentLoaded', () => {
-    const pageLink = document.getElementById("landing");
-    pageLink.addEventListener('click', () => goToPage ('home.html'));
 
-    const goToPage = (page) => {
-        window.location.href = page;
-    }
-});
-
-//Modal_________________________________________
+// Modal_________________________________________
 document.addEventListener("DOMContentLoaded", function() {
   var modal = document.getElementById("resume-modal");
   var trigger = document.getElementById("resume-link");
