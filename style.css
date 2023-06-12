@@ -11,37 +11,41 @@ body {
     color: antiquewhite;
     font-weight: bold;
     text-decoration: none;
+    text-shadow: 2px 2px 2px rgb(14, 52, 54);
     } 
 
 h1 {
-        font-size: 30px;
-        color: white;
-        font-weight: bold;
-        text-align: center;
-        text-transform: uppercase;
-        margin-top: 60px;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+    text-shadow: 1px 1px black;
     }
 
 a {
     text-decoration: none;
-    color: antiquewhite;
+    color: whitesmoke;
     }
 
 a:hover {
-    color: black;
+    color: blanchedalmond;
     text-decoration: none;
     font-size: larger;
     cursor: pointer;
     }    
 
-header:hover {
-    color: black;
-    text-decoration: none;
-    font-size: 42px;
-    cursor:pointer;
-    }
+  /* home______________________   */
 
-  /* home picture  */
+  #home-background {
+    background-image: url(IMG_home.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%
+  }
+
   #picture-container {
     display: flex;
     justify-content: center;
@@ -66,19 +70,25 @@ header:hover {
   }
 
   .home-page {
-  position: absolute; 
-  bottom: 40; 
+  position: relative; 
   left: 50%; 
   transform: translateX(-50%); 
-  padding: 10px; 
   color: white; 
-  font-size: 16px; 
+  font-size: 18px; 
+  text-shadow: 2px 2px 2px rgb(14, 52, 54);
   text-align: center; 
   width: 100%; 
   max-width: 400px; 
   white-space: pre-line;
 }
 
+@media (max-width: 768px) {
+  .home-page {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
  /*footer links  */
 
 .image-row {
@@ -159,7 +169,6 @@ header:hover {
     width: 100%;
     min-height: 100vh;
   }
-
 }
 
 input {
@@ -269,12 +278,20 @@ form {
     transform: translateX(-50%); 
     padding: 10px; 
     color: white; 
-    font-size: 16px; 
+    text-shadow: 2px 2px 2px rgb(14, 52, 54);
+    font-size: 18px; 
     text-align: center; 
     width: 100%; 
     max-width: 400px; 
   }
 
+  #about-background {
+    background-image: url(IMG_about.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
 /* carousel________________ */
 
 .container {
@@ -320,7 +337,7 @@ form {
   
   .carousel-button {
     align-self: center;
-    background: antiquewhite;
+    background: black;
     padding: 10px;
     border-radius: 50%;
     text-align: center;
@@ -328,8 +345,7 @@ form {
   
   .carousel-button:hover {
     cursor: pointer;
-    background: black;
-    color: white;
+    background: white;
   }
 
   @media (max-width: 768px) {
