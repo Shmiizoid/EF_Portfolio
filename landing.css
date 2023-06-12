@@ -1,0 +1,31 @@
+body {
+    background-image: url(IMG_landing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+}
+
+#landing {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: bold;
+  }
+
+a {
+    text-decoration: none;
+    text-shadow:1px 1px 1px dimgray;
+    color: snow;
+    font-size: 45px;
+    font-weight: bold;
+    }
+ 
+ #landing a:hover {
+  color:rgb(64,27,64);
+  text-shadow:1px 1px whitesmoke;
+    cursor: pointer;
+    font-size: 55px;
+ }
